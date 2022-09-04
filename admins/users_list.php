@@ -68,7 +68,7 @@ if (mysqli_num_rows($admin_result) > 0) {
     </table>
      <br><a href="../logout.php"><button>Logout</button></a>
     <br>
-    <br><?php if((isset($_SESSION['owner_id']) && isset($_SESSION['owner_username']))) {echo "<a href='owner.php'><button>Go Back</button></a>";} else if((isset($_SESSION['admin_id']) && isset($_SESSION['admin_username'])){echo "<a href='admins/'><button>Go Back</button></a>";}
+    <br><?php if((isset($_SESSION['owner_id']) && isset($_SESSION['owner_username']))) { echo "<a href='owner.php'><button>Go Back</button></a>";} else if((isset($_SESSION['admin_id']) && isset($_SESSION['admin_username']))){echo "<a href='admins/'><button>Go Back</button></a>";} ?>
   </center>
 </body>
 </html>
