@@ -3,38 +3,38 @@
 
 /* Your Database Server Name */
 
-$yourservername = "remotemysql.com"; 
+$yourservername = ""; 
 
 /* Your Database Username */
 
-$yourdbusername = "TdzCQOTm5G";
+$yourdbusername = "";
 
 /* Your Database Password */
 
-$yourdbpassword = "PDqLg4Nv67";
+$yourdbpassword = "";
 
 /* Your Database Name */
 
-$yourdbname = "TdzCQOTm5G";
+$yourdbname = "";
 
 /* Your Site Name That Will Appear On Top Of The Login And The Register Page Goes Here */
-$yoursitename = "motroking";
+$yoursitename = "";
 
 /* Your Site's Icon */
 
-$yoursiteicon = "https://i.ibb.co/28717vP/anime-profile-pic-small.png";
+$yoursiteicon = "";
 
 /* Your Site Users Table Name */
 
-$users_table = "test_users";
+$users_table = "";
 
 /* Your Site Admins Table Name */
 
-$admins_table = "test_admins";
+$admins_table = "";
 
 /* Your Site Owners Table Name */
 
-$owners_table = "test_owners";
+$owners_table = "";
 
 
 ?>
