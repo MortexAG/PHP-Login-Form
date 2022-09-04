@@ -7,8 +7,8 @@ Already Have A DataBase
 </li>
 <li><a href="#tools">Some Premade Tools</a></li>
 <a href="#issues"><li>Issues</li></a>
-<a href="https://replit.com/@MortexAG/PHP-Login-"><li>This Template's Repl Link</a></li>
-<a href=""><li>This Template's Github Repository</li></a></ul>
+<a href="https://replit.com/@MortexAG/PHP-Login-Form"><li>This Template's Repl Link</a></li>
+<a href="https://github.com/MortexAG/PHP-Login-Form"><li>This Template's Github Repository</li></a></ul>
 </h4>
 <hr>
 <h2 id="create">Create A Free DataBase In RemoteMySQL
