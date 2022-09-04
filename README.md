@@ -1,11 +1,14 @@
-# This is A Template For A PHP Login Form Using A RemoteMySQL DataBase.
+# This is A Template For A PHP Login Form Using A RemoteMySQL DataBase And Run on Replit.
 <h4>
 <ul> <li>You Need To <a href="https://remotemysql.com/databases.php?action=new">Create A DataBase</a>, You Can Create A Free One At RemoteMySQL (If You Already Have A DataBase You Can Skip The First Part)</li>
 <li><a href="#already">
 Already Have A DataBase
 </a>
 </li>
-<li><a href="#tools">Some Premade Tools</a></li></ul>
+<li><a href="#tools">Some Premade Tools</a></li>
+<a href="#issues"><li>Issues</li></a>
+<a href="https://replit.com/@MortexAG/PHP-Login-"><li>This Template's Repl Link</a></li>
+<a href=""><li>This Template's Github Repository</li></a></ul>
 </h4>
 <hr>
 <h2 id="create">Create A Free DataBase In RemoteMySQL
@@ -55,6 +58,12 @@ Already Have A DataBase
     <li>For Admins There Is A Tools To Show Them A List OF The Site's Users Who Registered An Account On The Site And A List Of The Site's Admins , This Information Is Fetched Directly From Your Database Tables Which Are Used To Insert The User Information.</li>
     <li>For Normal Users On Your Site There Are No Tools.</li>
   </ol>
+</h4>
+<h2 id="issues">Issues</h2>
+<h4>
+  <ul>
+    <li>Please Comment Any Issues You Find And I Will Reply As Soon As I Can.
+  </ul>
 </h4>
 
 
