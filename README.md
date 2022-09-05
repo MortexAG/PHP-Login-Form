@@ -15,22 +15,22 @@ Already Have A DataBase
 </h2>
 <h4>
 <ol>
-  <li>Register A New Account On <a href="https://remotemysql.com" target="_blank">RemoteMySQL Site</a>
+  <li>Register A New Account On <a href="https://remotemysql.com" target="_blank">RemoteMySQL Site</a></li>
   <br>
-    <img src="instructions/1.PNG">
+  <img src="instructions/1.PNG">
   <br>
-  </li>
+  
 <li>
-  <a href="https://remotemysql.com/databases.php?action=new" target="_blank">Use This Link To Create A DataBase Directly And Skip Surveys</a>
+  <a href="https://remotemysql.com/databases.php?action=new" target="_blank">Use This Link To Create A DataBase Directly And Skip Surveys</a></li>
 <br>
-  <img src="instructions/2.PNG">
+<img src="instructions/2.PNG">
 <br>
-</li>
-  <li>Now You Need To Keep The Username And Password And The DataBase Name And The Server Name.
+
+  <li>Now You Need To Keep The Username And Password And The DataBase Name And The Server Name.</li>
   <br>
-    <img src="instructions/3.PNG"></li>
+  <img src="instructions/3.PNG">
   <br>
-  <li id="already">Make Them Environment Secrets In This Repl For Better Security, "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username If You're Using RemoteMySQL, Or Add Them Directly In The "config.php" <ul><li>But If You Want To Use A Method Of Them Use It On All Your Data Or The Database Won't Be Connected.</li></ul></li>
+  <li id="already">Make Them Environment Secrets In This Repl For Better Security, "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username If You're Using RemoteMySQL, Or Add Them Directly In The "config.php" <ul><br><li>But If You Want To Use A Method Of Them Use It On All Your Data Or The Database Won't Be Connected.</li></ul></li>
   <br>
   <img src="instructions/4_gif.gif">
   <br>
@@ -41,6 +41,7 @@ Already Have A DataBase
   <br>
   </ul>
   <li>Make Three Tables In Your DataBase One For The Users List, Another For The Admins List, And Another One For The Owners List.</li>
+  <br>
   <li>The "id" Column Of All The Tables Must Be Primary.</li>
   <br>
   <img src="instructions/admins_table.png">
@@ -57,6 +58,7 @@ Already Have A DataBase
     <br>
     <li>BUT REMEMBER TO REMOVE THESE "add_owner.php" AND "add_owner_code.php" FROM THE REPL AS SOON AS YOU DO THIS TO PREVENT ANYONE FROM ACCESSING IT AND ADDING A NEW OWNER.</li></ul>
   </li>
+  <br>
   <li>Now All You Need To Do Is Adding Your Information In The "config.php" As The Table Names And Your Site And Page Name You Will Find Leading Comments in The File.</li>
   <br>
 <img src="instructions/8.PNG">
