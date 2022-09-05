@@ -15,42 +15,48 @@ Already Have A DataBase
 </h2>
 <h4>
 <ol>
-  <li>Register A New Account On <a href="remotemysql.com" target="_blank">RemoteMySQL Site</a>
+  <li>Register A New Account On <a href="https://remotemysql.com" target="_blank">RemoteMySQL Site</a>
+    <img src="instructions/1.PNG">
   </li>
 <li>
   <a href="https://remotemysql.com/databases.php?action=new" target="_blank">Use This Link To Create A DataBase Directly And Skip Surveys</a>
+  <img src="instructions/2.PNG">
 </li>
-  <li>Now You Need To Keep The Username And Password And The DataBase Name And The Server Name.</li>
-  <li>Make Them Environment Secrets In This Repl For Better Security, "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username If You're Using RemoteMySQL, Or Add Them Directly In The "config.php".</li>
+  <li>Now You Need To Keep The Username And Password And The DataBase Name And The Server Name.
+  <img src="instructions/3.PNG"></li>
+  <li id="already">Make Them Environment Secrets In This Repl For Better Security, "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username If You're Using RemoteMySQL, Or Add Them Directly In The "config.php" <ul><li>But If You Want To Use A Method Of Them Use It On All Your Data Or The Database Won't Be Connected.</li></ul></li>
+  <img src="instructions/4_gif.gif">
   <ul>
     <li>You Can Make Environment Secrets With Whatever Names You Want But Make Sure To Add Them To The "config.php".</li>
+    
+  <img src="instructions/5.PNG">
   </ul>
   <li>Make Three Tables In Your DataBase One For The Users List, Another For The Admins List, And Another One For The Owners List.</li>
-  <li>All Of The Tables Must Have 4 Columns (id, username, password, nickname) (NOTHING IS IN CAPITAL).</li>
   <li>The "id" Column Of All The Tables Must Be Primary.</li>
-  <li>To Add The Owner Info Into The Owner Table You Either Do It Manually Or Run The File "add_owner.php" By Typing The Link Followed By It as in "https://PHP-Login.yourname.repl.co/add_owner.php". <ul style="color:red;"><li>BUT REMEMBER TO REMOVE THESE "add_owner.php" AND "add_owner_code.php" FROM THE REPL AS SOON AS YOU DO THIS TO PREVENT ANYONE FROM ACCESSING IT AND ADDING A NEW OWNER.</li></ul>
+  <br><img src="instructions/users_video.mp4">
+  <img src="instructions/admins_table.png">
+  <img src="instructions/owners_table.png">
+  <li>All Of The Tables Must Have 4 Columns (id, username, password, nickname) (NOTHING IS IN CAPITAL).</li>
+  <img src="instructions/final_form.png">
+  
+  <li>To Add The Owner Info Into The Owner Table You Either Do It Manually Or Run The File "add_owner.php" By Typing The Link Followed By It as in "https://PHP-Login.yourname.repl.co/add_owner.php". <ul style="color:red;">
+    <br>
+    <img src="instructions/6.PNG">
+    <img src="instructions/7.PNG">
+    <li>BUT REMEMBER TO REMOVE THESE "add_owner.php" AND "add_owner_code.php" FROM THE REPL AS SOON AS YOU DO THIS TO PREVENT ANYONE FROM ACCESSING IT AND ADDING A NEW OWNER.</li></ul>
   </li>
   <li>Now All You Need To Do Is Adding Your Information In The "config.php" As The Table Names And Your Site And Page Name You Will Find Leading Comments in The File.</li>
+  <br>
+<img src="instructions/8.PNG">
+<img src="instructions/9.PNG">
+<p>or</p>
+<br>
+<img src="instructions/5.PNG">
 </ol>
 <hr>
 </h4>
-<h2 id="already">Already Have A DataBase</h2>
-<h4>
-  <ol>
-    <li>Make Your Database Username, Password And Server Environment Secrets In This Repl For Better Secuirty, Or Add Them In The "config.php".</li>
-    <li>You May Use "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username IF You're Using RemoteMySQL.</li>
-    <ul>
-      <li>You Can Make Environment Secrets With Whatever Names You Want But Make Sure To Add Them To The "login_config.php".</li>
-    </ul>
-    <li>Make Three Tables In Your DataBase One For The Users List, Another For The Admins List, And Another One For The Owners List.</li>
-    <li>All Of The Tables Must Have 4 Columns (id, username, password, nickname) (NOTHING IN CAPITAL).</li>
-    <li>The "id" Column Of All The Tables Must Be Primary.</li>
-    <li>To Add The Owner Info Into The Owner Table You Either Do It Manually Or Run The File "add_owner.php" By Typing The Link Followed By It as in "https://PHP-Login.yourname.repl.co/add_owner.php". <ul style="color:red;"><li>BUT REMEMBER TO REMOVE THESE "add_owner.php" AND "add_owner_code.php" FROM THE REPL AS SOON AS YOU DO THIS TO PREVENT ANYONE FROM ACCESSING IT AND ADDING A NEW OWNER.</li></ul>
-    </li>
-    <li>You Need To Add Your Information To The "config.php" As The Table Names And Your Site And Page Name You Will Find Leading Comments in The File.</li>
-  </ol>
-</h4>
-<hr>
+
+
 <h2 id="tools">Some Premade Tools</h2>
 <h4>
   <ol>
