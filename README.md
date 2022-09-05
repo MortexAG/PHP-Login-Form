@@ -35,11 +35,10 @@ Already Have A DataBase
   <img src="instructions/4_gif.gif">
   <br>
   <ul>
-    <li>You Can Make Environment Secrets With Whatever Names You Want But Make Sure To Add Them To The "config.php".</li>
+    <li>You Can Make Environment Secrets With Whatever Names You Want But Make Sure To Add Them To The "config.php".</li></ul>
   <br>
   <img src="instructions/5.PNG">
   <br>
-  </ul>
   <li>Make Three Tables In Your DataBase One For The Users List, Another For The Admins List, And Another One For The Owners List.</li>
   <br>
   <li>The "id" Column Of All The Tables Must Be Primary.</li>
