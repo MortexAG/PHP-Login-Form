@@ -1,24 +1,24 @@
 # This is A Template For A PHP Login Form Using A RemoteMySQL DataBase And Run on Replit.
 <h4>
-<ul> <li>You Need To <a href="https://remotemysql.com/databases.php?action=new">Create A DataBase</a>, You Can Create A Free One At RemoteMySQL (If You Already Have A DataBase You Can Skip The First Part)</li>
+<ul> <li>You Need To <a href="https://remotemysql.com/databases.php?action=new" target="_blank">Create A DataBase</a>, You Can Create A Free One At RemoteMySQL (If You Already Have A DataBase You Can Skip The First Part)</li>
 <li><a href="#already">
 Already Have A DataBase
 </a>
 </li>
 <li><a href="#tools">Some Premade Tools</a></li>
 <li><a href="#issues">Issues</a></li>
-<a href="https://replit.com/@MortexAG/PHP-Login-Form"><li>This Template's Repl Link</a></li>
-<li><a href="https://github.com/MortexAG/PHP-Login-Form">This Template's Github Repository</a></li><li><a href="https://login.mortexagsite.cyou">Test This Template On My Site</a></li></ul>
+<a href="https://replit.com/@MortexAG/PHP-Login-Form" target="_blank"><li>This Template's Repl Link</a></li>
+<li><a href="https://github.com/MortexAG/PHP-Login-Form" target="_blank">This Template's Github Repository</a></li><li><a href="https://login.mortexagsite.cyou" target="_blank">Test This Template On My Site</a></li></ul>
 </h4>
 <hr>
 <h2 id="create">Create A Free DataBase In RemoteMySQL
 </h2>
 <h4>
 <ol>
-  <li>Register A New Account On <a href="remotemysql.com">RemoteMySQL Site</a>
+  <li>Register A New Account On <a href="remotemysql.com" target="_blank">RemoteMySQL Site</a>
   </li>
 <li>
-  <a href="https://remotemysql.com/databases.php?action=new">Use This Link To Create A DataBase Directly And Skip Surveys</a>
+  <a href="https://remotemysql.com/databases.php?action=new" target="_blank">Use This Link To Create A DataBase Directly And Skip Surveys</a>
 </li>
   <li>Now You Need To Keep The Username And Password And The DataBase Name And The Server Name.</li>
   <li>Make Them Environment Secrets In This Repl For Better Security, "db_username" For The Username And "db_password" For The Password And "server" For The Server, And "db_name" For The Database Name Which Will Be The Same As Your Username If You're Using RemoteMySQL, Or Add Them Directly In The "config.php".</li>
